@@ -98,10 +98,6 @@
     [self scrollView];
 }
 
-- (void)willMoveToWindow:(UIWindow *)newWindow {
-    
-//    _scrollView 
-}
 - (void)layoutSubviews {
     
     [super layoutSubviews];
@@ -148,7 +144,6 @@
 
 - (void)urlImages {
     
-//    if (_images.count == 0) return;
     
     CGFloat width = CGRectGetWidth(_scrollView.frame);
     CGFloat height = CGRectGetHeight(_scrollView.frame);
@@ -185,8 +180,6 @@
 }
 - (void)localImages {
     
-//    if (_images.count == 0) return;
-    
     CGFloat width = CGRectGetWidth(_scrollView.frame);
     CGFloat height = CGRectGetHeight(_scrollView.frame);
     
@@ -198,8 +191,10 @@
         
         imageView.userInteractionEnabled = YES;
         
+        NSString * path = [[NSBundle mainBundle] pathForResource:self.images[self.images.count - 1] ofType:@"png"];
+        
         if (i == 0) {
-            imageView.image = [UIImage imageNamed:self.images[self.images.count - 1]];
+            imageView.image = [UIImage imageWithContentsOfFile:path];
             
         } else if (i == self.images.count + 1) {
             

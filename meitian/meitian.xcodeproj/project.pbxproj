@@ -89,6 +89,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC027E241C1839BC00AA968A /* phFile.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = phFile.pch; sourceTree = "<group>"; };
 		BC8E3F4E1C16FAD8005E01FB /* meitian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meitian.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC8E3F521C16FAD8005E01FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC8E3F541C16FAD8005E01FB /* FZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZAppDelegate.h; sourceTree = "<group>"; };
@@ -286,6 +287,7 @@
 				BC8E3F5F1C16FAD8005E01FB /* LaunchScreen.storyboard */,
 				BC8E3F621C16FAD8005E01FB /* Info.plist */,
 				BC8E3F521C16FAD8005E01FB /* main.m */,
+				BC027E241C1839BC00AA968A /* phFile.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -1056,6 +1058,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/meitian/phFile.pch";
 				INFOPLIST_FILE = meitian/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1068,6 +1071,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/meitian/phFile.pch";
 				INFOPLIST_FILE = meitian/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1143,6 +1147,7 @@
 				BC8E3F7D1C16FAD8005E01FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC8E3F7E1C16FAD8005E01FB /* Build configuration list for PBXNativeTarget "meitianTests" */ = {
 			isa = XCConfigurationList;
@@ -1151,6 +1156,7 @@
 				BC8E3F801C16FAD8005E01FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC8E3F811C16FAD8005E01FB /* Build configuration list for PBXNativeTarget "meitianUITests" */ = {
 			isa = XCConfigurationList;
@@ -1159,6 +1165,7 @@
 				BC8E3F831C16FAD8005E01FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
