@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39BAB4B31C26AFA200B58096 /* BaseDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BAB4B21C26AFA200B58096 /* BaseDataModel.m */; settings = {ASSET_TAGS = (); }; };
+		39BAB4E01C26AFD000B58096 /* FZRotatingBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BAB4B61C26AFD000B58096 /* FZRotatingBanner.m */; settings = {ASSET_TAGS = (); }; };
+		39BAB4E11C26AFD000B58096 /* FZImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BAB4B91C26AFD000B58096 /* FZImage.m */; settings = {ASSET_TAGS = (); }; };
+		39BAB4E21C26AFD000B58096 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BAB4BC1C26AFD000B58096 /* MyCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		39BAB4E31C26AFD000B58096 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39BAB4BD1C26AFD000B58096 /* MyCollectionViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		39BAB4F61C26B10900B58096 /* FZRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BAB4F51C26B10900B58096 /* FZRootViewController.m */; settings = {ASSET_TAGS = (); }; };
+		39BAB4F91C26B13500B58096 /* FZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BAB4F81C26B13500B58096 /* FZBaseViewController.m */; settings = {ASSET_TAGS = (); }; };
+		39BAB4FC1C26B16D00B58096 /* FZFunDayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BAB4FB1C26B16D00B58096 /* FZFunDayController.m */; settings = {ASSET_TAGS = (); }; };
+		39BAB4FF1C26B18500B58096 /* FZFoundController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BAB4FE1C26B18500B58096 /* FZFoundController.m */; settings = {ASSET_TAGS = (); }; };
+		39BAB5021C26B19C00B58096 /* FZSpecialController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BAB5011C26B19C00B58096 /* FZSpecialController.m */; settings = {ASSET_TAGS = (); }; };
+		39BAB5051C26B1B000B58096 /* FZMyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BAB5041C26B1B000B58096 /* FZMyController.m */; settings = {ASSET_TAGS = (); }; };
 		BC027E311C183E2500AA968A /* author_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = BC027E251C183E2500AA968A /* author_normal.png */; settings = {ASSET_TAGS = (); }; };
 		BC027E321C183E2500AA968A /* author_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = BC027E261C183E2500AA968A /* author_selected.png */; settings = {ASSET_TAGS = (); }; };
 		BC027E331C183E2500AA968A /* discovery_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = BC027E271C183E2500AA968A /* discovery_normal.png */; settings = {ASSET_TAGS = (); }; };
@@ -51,7 +62,6 @@
 		BC8E402F1C16FF52005E01FB /* UIImage+ImageColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8E402E1C16FF52005E01FB /* UIImage+ImageColor.m */; settings = {ASSET_TAGS = (); }; };
 		BC8E40331C16FF67005E01FB /* ZLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8E40321C16FF67005E01FB /* ZLTabBar.m */; settings = {ASSET_TAGS = (); }; };
 		BC8E40371C16FF6A005E01FB /* ZLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8E40361C16FF6A005E01FB /* ZLTabBarController.m */; settings = {ASSET_TAGS = (); }; };
-		BC8E403B1C16FF6E005E01FB /* ZLDynamicAd.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8E403A1C16FF6E005E01FB /* ZLDynamicAd.m */; settings = {ASSET_TAGS = (); }; };
 		BC8E40471C16FF7C005E01FB /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8E403E1C16FF7C005E01FB /* FMDatabase.m */; settings = {ASSET_TAGS = (); }; };
 		BC8E40481C16FF7C005E01FB /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8E40401C16FF7C005E01FB /* FMDatabaseAdditions.m */; settings = {ASSET_TAGS = (); }; };
 		BC8E40491C16FF7C005E01FB /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8E40421C16FF7C005E01FB /* FMDatabasePool.m */; settings = {ASSET_TAGS = (); }; };
@@ -101,6 +111,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39BAB4B11C26AFA200B58096 /* BaseDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDataModel.h; sourceTree = "<group>"; };
+		39BAB4B21C26AFA200B58096 /* BaseDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDataModel.m; sourceTree = "<group>"; };
+		39BAB4B51C26AFD000B58096 /* FZRotatingBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZRotatingBanner.h; sourceTree = "<group>"; };
+		39BAB4B61C26AFD000B58096 /* FZRotatingBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZRotatingBanner.m; sourceTree = "<group>"; };
+		39BAB4B81C26AFD000B58096 /* FZImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZImage.h; sourceTree = "<group>"; };
+		39BAB4B91C26AFD000B58096 /* FZImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZImage.m; sourceTree = "<group>"; };
+		39BAB4BB1C26AFD000B58096 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		39BAB4BC1C26AFD000B58096 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+		39BAB4BD1C26AFD000B58096 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
+		39BAB4F41C26B10900B58096 /* FZRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZRootViewController.h; sourceTree = "<group>"; };
+		39BAB4F51C26B10900B58096 /* FZRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZRootViewController.m; sourceTree = "<group>"; };
+		39BAB4F71C26B13500B58096 /* FZBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZBaseViewController.h; sourceTree = "<group>"; };
+		39BAB4F81C26B13500B58096 /* FZBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZBaseViewController.m; sourceTree = "<group>"; };
+		39BAB4FA1C26B16D00B58096 /* FZFunDayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZFunDayController.h; sourceTree = "<group>"; };
+		39BAB4FB1C26B16D00B58096 /* FZFunDayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZFunDayController.m; sourceTree = "<group>"; };
+		39BAB4FD1C26B18500B58096 /* FZFoundController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZFoundController.h; sourceTree = "<group>"; };
+		39BAB4FE1C26B18500B58096 /* FZFoundController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZFoundController.m; sourceTree = "<group>"; };
+		39BAB5001C26B19C00B58096 /* FZSpecialController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZSpecialController.h; sourceTree = "<group>"; };
+		39BAB5011C26B19C00B58096 /* FZSpecialController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZSpecialController.m; sourceTree = "<group>"; };
+		39BAB5031C26B1B000B58096 /* FZMyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZMyController.h; sourceTree = "<group>"; };
+		39BAB5041C26B1B000B58096 /* FZMyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZMyController.m; sourceTree = "<group>"; };
 		BC027E241C1839BC00AA968A /* phFile.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = phFile.pch; sourceTree = "<group>"; };
 		BC027E251C183E2500AA968A /* author_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = author_normal.png; sourceTree = "<group>"; };
 		BC027E261C183E2500AA968A /* author_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = author_selected.png; sourceTree = "<group>"; };
@@ -180,8 +211,6 @@
 		BC8E40321C16FF67005E01FB /* ZLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLTabBar.m; sourceTree = "<group>"; };
 		BC8E40351C16FF6A005E01FB /* ZLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLTabBarController.h; sourceTree = "<group>"; };
 		BC8E40361C16FF6A005E01FB /* ZLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLTabBarController.m; sourceTree = "<group>"; };
-		BC8E40391C16FF6E005E01FB /* ZLDynamicAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLDynamicAd.h; sourceTree = "<group>"; };
-		BC8E403A1C16FF6E005E01FB /* ZLDynamicAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLDynamicAd.m; sourceTree = "<group>"; };
 		BC8E403D1C16FF7C005E01FB /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
 		BC8E403E1C16FF7C005E01FB /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
 		BC8E403F1C16FF7C005E01FB /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
@@ -268,6 +297,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39BAB4B01C26AFA200B58096 /* BaseDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				39BAB4B11C26AFA200B58096 /* BaseDataModel.h */,
+				39BAB4B21C26AFA200B58096 /* BaseDataModel.m */,
+			);
+			path = BaseDataModel;
+			sourceTree = "<group>";
+		};
+		39BAB4B41C26AFD000B58096 /* FZRotatingBanner */ = {
+			isa = PBXGroup;
+			children = (
+				39BAB4B51C26AFD000B58096 /* FZRotatingBanner.h */,
+				39BAB4B61C26AFD000B58096 /* FZRotatingBanner.m */,
+				39BAB4B71C26AFD000B58096 /* ImageInher */,
+				39BAB4BA1C26AFD000B58096 /* MyCollectionViewCell */,
+			);
+			path = FZRotatingBanner;
+			sourceTree = "<group>";
+		};
+		39BAB4B71C26AFD000B58096 /* ImageInher */ = {
+			isa = PBXGroup;
+			children = (
+				39BAB4B81C26AFD000B58096 /* FZImage.h */,
+				39BAB4B91C26AFD000B58096 /* FZImage.m */,
+			);
+			path = ImageInher;
+			sourceTree = "<group>";
+		};
+		39BAB4BA1C26AFD000B58096 /* MyCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				39BAB4BB1C26AFD000B58096 /* MyCollectionViewCell.h */,
+				39BAB4BC1C26AFD000B58096 /* MyCollectionViewCell.m */,
+				39BAB4BD1C26AFD000B58096 /* MyCollectionViewCell.xib */,
+			);
+			path = MyCollectionViewCell;
+			sourceTree = "<group>";
+		};
 		BC8E3F451C16FAD7005E01FB = {
 			isa = PBXGroup;
 			children = (
@@ -338,10 +406,10 @@
 			isa = PBXGroup;
 			children = (
 				BC8E3F881C16FE7E005E01FB /* CommonPage */,
-				BC8E3F8C1C16FE7E005E01FB /* FoundPage */,
 				BC8E3F901C16FE7E005E01FB /* FunDayPage */,
-				BC8E3F941C16FE7E005E01FB /* MyPage */,
+				BC8E3F8C1C16FE7E005E01FB /* FoundPage */,
 				BC8E3F981C16FE7E005E01FB /* SpecialPage */,
+				BC8E3F941C16FE7E005E01FB /* MyPage */,
 			);
 			path = PageController;
 			sourceTree = "<group>";
@@ -360,7 +428,7 @@
 		BC8E3F861C16FDB4005E01FB /* MyClass */ = {
 			isa = PBXGroup;
 			children = (
-				BC8E40381C16FF6E005E01FB /* ZLDynamicAd */,
+				39BAB4B41C26AFD000B58096 /* FZRotatingBanner */,
 				BC8E40341C16FF6A005E01FB /* ZLTabBarController */,
 				BC8E40301C16FF67005E01FB /* ZLTabBar */,
 				BC8E402C1C16FF52005E01FB /* UIImage+ImageColor */,
@@ -398,6 +466,10 @@
 		BC8E3F891C16FE7E005E01FB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				39BAB4F41C26B10900B58096 /* FZRootViewController.h */,
+				39BAB4F51C26B10900B58096 /* FZRootViewController.m */,
+				39BAB4F71C26B13500B58096 /* FZBaseViewController.h */,
+				39BAB4F81C26B13500B58096 /* FZBaseViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -405,6 +477,7 @@
 		BC8E3F8A1C16FE7E005E01FB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				39BAB4B01C26AFA200B58096 /* BaseDataModel */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -429,6 +502,8 @@
 		BC8E3F8D1C16FE7E005E01FB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				39BAB4FD1C26B18500B58096 /* FZFoundController.h */,
+				39BAB4FE1C26B18500B58096 /* FZFoundController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -460,6 +535,8 @@
 		BC8E3F911C16FE7E005E01FB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				39BAB4FA1C26B16D00B58096 /* FZFunDayController.h */,
+				39BAB4FB1C26B16D00B58096 /* FZFunDayController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -491,6 +568,8 @@
 		BC8E3F951C16FE7E005E01FB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				39BAB5031C26B1B000B58096 /* FZMyController.h */,
+				39BAB5041C26B1B000B58096 /* FZMyController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -522,6 +601,8 @@
 		BC8E3F991C16FE7E005E01FB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				39BAB5001C26B19C00B58096 /* FZSpecialController.h */,
+				39BAB5011C26B19C00B58096 /* FZSpecialController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -688,15 +769,6 @@
 				BC8E40361C16FF6A005E01FB /* ZLTabBarController.m */,
 			);
 			path = ZLTabBarController;
-			sourceTree = "<group>";
-		};
-		BC8E40381C16FF6E005E01FB /* ZLDynamicAd */ = {
-			isa = PBXGroup;
-			children = (
-				BC8E40391C16FF6E005E01FB /* ZLDynamicAd.h */,
-				BC8E403A1C16FF6E005E01FB /* ZLDynamicAd.m */,
-			);
-			path = ZLDynamicAd;
 			sourceTree = "<group>";
 		};
 		BC8E403C1C16FF7C005E01FB /* FMDB */ = {
@@ -892,6 +964,7 @@
 				BC8E3F5E1C16FAD8005E01FB /* Assets.xcassets in Resources */,
 				BC027E381C183E2500AA968A /* my_normal@2x.png in Resources */,
 				BC027E3C1C183E2500AA968A /* my_selected@3x.png in Resources */,
+				39BAB4E31C26AFD000B58096 /* MyCollectionViewCell.xib in Resources */,
 				BC027E3A1C183E2500AA968A /* my_selected.png in Resources */,
 				BC027E391C183E2500AA968A /* my_normal@3x.png in Resources */,
 				BC027E331C183E2500AA968A /* discovery_normal.png in Resources */,
@@ -925,14 +998,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC8E403B1C16FF6E005E01FB /* ZLDynamicAd.m in Sources */,
 				BC8E40191C16FEF5005E01FB /* UIScrollView+MJExtension.m in Sources */,
 				BC8E3F561C16FAD8005E01FB /* FZAppDelegate.m in Sources */,
 				BC8E40751C16FF92005E01FB /* SDWebImageManager.m in Sources */,
+				39BAB4F91C26B13500B58096 /* FZBaseViewController.m in Sources */,
 				BC8E40371C16FF6A005E01FB /* ZLTabBarController.m in Sources */,
+				39BAB4E11C26AFD000B58096 /* FZImage.m in Sources */,
+				39BAB5021C26B19C00B58096 /* FZSpecialController.m in Sources */,
 				BC8E402B1C16FF4A005E01FB /* UIView+ChangeViewCenter.m in Sources */,
+				39BAB4E21C26AFD000B58096 /* MyCollectionViewCell.m in Sources */,
 				BC8E40331C16FF67005E01FB /* ZLTabBar.m in Sources */,
 				BC8E40791C16FF92005E01FB /* UIImage+MultiFormat.m in Sources */,
+				39BAB4E01C26AFD000B58096 /* FZRotatingBanner.m in Sources */,
 				BC8E40161C16FEF5005E01FB /* MJRefreshStateHeader.m in Sources */,
 				BC8E40731C16FF92005E01FB /* SDWebImageDownloader.m in Sources */,
 				BC8E40221C16FF0B005E01FB /* NJKWebViewProgressView.m in Sources */,
@@ -942,14 +1019,18 @@
 				BC8E40131C16FEF5005E01FB /* MJRefreshBackStateFooter.m in Sources */,
 				BC8E40181C16FEF5005E01FB /* MJRefreshConst.m in Sources */,
 				BC8E407B1C16FF92005E01FB /* UIImageView+HighlightedWebCache.m in Sources */,
+				39BAB4B31C26AFA200B58096 /* BaseDataModel.m in Sources */,
 				BC8E40721C16FF92005E01FB /* SDWebImageDecoder.m in Sources */,
+				39BAB5051C26B1B000B58096 /* FZMyController.m in Sources */,
 				BC8E40761C16FF92005E01FB /* SDWebImagePrefetcher.m in Sources */,
 				BC8E40101C16FEF5005E01FB /* MJRefreshAutoStateFooter.m in Sources */,
 				BC8E400B1C16FEF5005E01FB /* MJRefreshComponent.m in Sources */,
 				BC8E40491C16FF7C005E01FB /* FMDatabasePool.m in Sources */,
 				BC8E40271C16FF3E005E01FB /* ZLScreenAdapter.m in Sources */,
+				39BAB4FC1C26B16D00B58096 /* FZFunDayController.m in Sources */,
 				BC8E400D1C16FEF5005E01FB /* MJRefreshHeader.m in Sources */,
 				BC8E40151C16FEF5005E01FB /* MJRefreshNormalHeader.m in Sources */,
+				39BAB4FF1C26B18500B58096 /* FZFoundController.m in Sources */,
 				BC8E40781C16FF92005E01FB /* UIImage+GIF.m in Sources */,
 				BC8E407C1C16FF92005E01FB /* UIImageView+WebCache.m in Sources */,
 				BC8E401A1C16FEF5005E01FB /* UIScrollView+MJRefresh.m in Sources */,
@@ -966,6 +1047,7 @@
 				BC8E404A1C16FF7C005E01FB /* FMDatabaseQueue.m in Sources */,
 				BC8E40141C16FEF5005E01FB /* MJRefreshGifHeader.m in Sources */,
 				BC8E40121C16FEF5005E01FB /* MJRefreshBackNormalFooter.m in Sources */,
+				39BAB4F61C26B10900B58096 /* FZRootViewController.m in Sources */,
 				BC8E40771C16FF92005E01FB /* UIButton+WebCache.m in Sources */,
 				BC8E400C1C16FEF5005E01FB /* MJRefreshFooter.m in Sources */,
 				BC8E400E1C16FEF5005E01FB /* MJRefreshAutoGifFooter.m in Sources */,
@@ -1106,6 +1188,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/meitian/phFile.pch";
 				INFOPLIST_FILE = meitian/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
@@ -1119,6 +1202,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/meitian/phFile.pch";
 				INFOPLIST_FILE = meitian/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
