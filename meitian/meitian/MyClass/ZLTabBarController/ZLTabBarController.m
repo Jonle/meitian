@@ -134,8 +134,6 @@
 
 - (void)didReceiveMemoryWarning {
     
-    [super didReceiveMemoryWarning];
-    
     if (_currentViewIndex != 0) {
         
         [[self.viewControllers[0] view] removeFromSuperview];
@@ -152,6 +150,8 @@
         
         [[self.viewControllers[3] view] removeFromSuperview];
     }
+    
+    [super didReceiveMemoryWarning];
 }
 
 @end

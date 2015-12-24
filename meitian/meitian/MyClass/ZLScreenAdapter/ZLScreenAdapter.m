@@ -1,6 +1,5 @@
 //
 //  ZLScreenAdapter.m
-//  美天
 //
 //  Created by qianfeng on 15/10/24.
 //  Copyright © 2015年 Jonle. All rights reserved.
