@@ -1,0 +1,36 @@
+//
+//  phFile.pch
+//  meitian
+//
+//  Created by Jonle on 15/12/9.
+//  Copyright © 2015年 jonle. All rights reserved.
+//
+
+#ifndef phFile_pch
+#define phFile_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+
+#import "UIImageView+WebCache.h"
+//屏幕适配
+#import "ZLScreenAdaption.h"
+
+//网络请求
+#import "FZHttpTool.h"
+//网络接口
+#import "HttpInterface.h"
+
+/****宏定义：颜色 ******/
+#define UIColorWithRGB(_r, _g, _b, _alpha) [UIColor colorWithRed:(_r) / 255.f green:(_g) / 255.f blue:(_b) / 255.f alpha:(_alpha)]
+/****宏定义：屏幕宽度 ******/
+#define SCREEN_Width [[UIScreen mainScreen] bounds].size.width
+/****宏定义：屏幕高度 ******/
+#define SCREEN_Height [[UIScreen mainScreen] bounds].size.height
+
+
+#endif /* phFile_pch */
